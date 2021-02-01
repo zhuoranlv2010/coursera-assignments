@@ -1,0 +1,77 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+h1 {
+  font-size: 1.7em;
+}
+/* START HEADER */
+#header-nav {
+  background-color: #B2BABB;
+  border-radius: 0;
+  border: 1px solid black;
+}
+
+.navbar-brand {
+  float: left;
+  padding: 0;
+  text-decoration: none;
+}
+
+.navbar-brand h1 {
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin: 0;
+  border: 0;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+#nav-list li {
+  background-color: #EAEDED;
+  text-align: center;
+  border: 1px solid black;
+}
+
+#nav-list li:nth-child(2) {
+  border-top: 0;
+}
+
+#nav-list li:nth-child(3) {
+  border-top: 0;
+  border-bottom: 0;
+}
+
+#collapsable-nav {
+  padding: 0;
+  border-top: 0;
+}
+/* END HEADER */
+
+div.menu-detail {
+  background-color: #E5E8E8;
+  margin-top: 30px;
+}
+
+div #single-grid {
+  height: 1000px;
+}
+
+.section_title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
